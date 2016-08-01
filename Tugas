@@ -1,0 +1,38 @@
+#include <iostream>
+#include <conio.h>
+#define n 5
+using namespace std;
+
+int I[n], z,akhir;
+void push (int a)
+{
+	akhir=akhir+1;
+	I[akhir]=a;
+}
+int pop()
+{
+	int a;
+	a=I[akhir];
+	akhir=akhir-1;
+	return a;
+}
+int main()
+{
+	cout<<"INPUTKAN ISI DARI STACK\n\n";
+	akhir=-1;
+	
+	while (akhir<=n-1)
+	{
+		cout<<"INPUTKAN ISINYA :";
+		cin>>z;
+		push(z);
+	}
+	
+	cout<<"Isi Pada Stack : ";
+	while (akhir>=0)
+	{
+		z=pop();
+		cout<<z<<" ";
+	}
+	getch();
+}
