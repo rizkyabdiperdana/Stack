@@ -4,7 +4,7 @@
 using namespace std;
 
 int I[n], z,akhir;
-void push (int b)
+void push (int a)
 {
 	akhir=akhir+1;
 	I[akhir]=a;
