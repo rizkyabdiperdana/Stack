@@ -1,6 +1,6 @@
 #include <iostream>
 #include <conio.h>
-#define n 2
+#define n 3
 using namespace std;
 
 int I[n], z,akhir;
