@@ -3,7 +3,7 @@
 #define n 5
 using namespace std;
 
-int I[], z,akhir;
+int I[n], z,akhir;
 void push (int a)
 {
 	akhir=akhir+1;
